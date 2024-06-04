@@ -1,0 +1,149 @@
+.header{
+    width: 1345px;
+    height: 180px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background: #8294C4;
+    padding-right: 20px;
+  }
+  
+  .shop-name{
+    color: black;
+    text-align: center;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 10px;
+  }
+  .shop-slog{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 15px;
+    padding-bottom: 10px;
+  }
+  
+  .contents-nav{
+    width:100%px;
+    height: 35px;
+    background-color: #ACB1D6;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: black;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 10px;
+  }
+  a{
+    text-decoration: none;
+    color:#454545;
+  }
+
+  #pro-btn:hover, #or-btn:hover, #home-btn:hover, 
+  #about-btn:hover, #logout:hover{
+    color: aliceblue;
+  }
+  
+  #logout{
+    float: right;
+  }
+  
+.box-form{
+    width: 500px;
+    height: 770px;
+    font-size: 15px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border-color: #DBDFEA;
+    border-style: solid;
+    box-shadow: 2px 3px 3px 0px #ACB1D6;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 420px;
+}
+
+.header-order{
+    width: 500px;
+    height: 30px;
+    background-color: #DBDFEA;
+    padding-top: 10px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    font-size: 20px;
+    box-shadow: 0px 2px 0px 0px black;
+}
+
+.header-menu{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+    width: 320px;
+    height: 30px;
+    background-color: #DBDFEA;
+    padding-top: 10px;
+    margin-left: 0px;
+    padding-left: 180px;
+    box-shadow:  0px 2px 0px 0px black;
+}
+
+.cus-info, .hot-info, .cold-info, .bake-info{
+    padding-left: 50px;
+    line-height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#fname, #address, #email, #number{
+    width: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.header-cus, .header-hot, .header-cold, .header-bake{
+    font-weight: bold;
+}
+
+#cap, #moc, #cam, #esp, #jav, #haz, #str, #muf, #choc, #cin, #bana{
+    margin-left: 25px;
+}
+
+#button{
+    width: 90px;
+    height: 35px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #DBDFEA;
+    margin-bottom: 20px;
+    margin-left: 200px;
+  }
+
+#button:hover{
+    cursor: pointer;
+    box-shadow:  1px 1px 1px 0px black;
+}
+
+.order-info{
+    width: 1345px;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background: #8294C4;
+    padding-right: 20px;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+  
+.view-btn{
+  padding-left: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#view:hover{
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

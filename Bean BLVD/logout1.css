@@ -1,0 +1,46 @@
+body{
+	background-image: url("img/bg.jpg");
+	background-size: cover;
+    display: flex;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 40px 40px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin-top: 150px;
+}
+
+h1 {
+	font-size: 48px;
+	color: black;
+	margin-bottom: 30px;
+}
+
+p {
+	font-size: 24px;
+	color: black; 
+	margin-bottom: 50px;
+}
+
+.btn {
+	font-family: Arial, sans-serif;
+	display: inline-block;
+	padding: 15px 30px;
+	background-color: #8294C4;
+	color: black;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+	background-color: #ACB1D6;
+	cursor: pointer;
+}
+
+

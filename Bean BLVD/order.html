@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type = "text/css" href = "order.css">
+    <title>Order Form</title>
+</head>
+<body>
+    <div class="header">
+        <div class = "shop-name">
+        BEAN BOULEVARD
+        <div class = "shop-slog">
+        Sip, chat, share, relax
+        </div>
+        </div>
+        <div class = "contents-nav">
+        <nav>
+            <a href="#" id = "home-btn">HOME</a>
+            <a href="about.html" id = "about-btn">ABOUT</a>
+            <a href="product.html" id = "pro-btn">PRODUCTS</a>
+            <a href = "order.html" id = "or-btn">ORDER</a>
+            <a href="#" id = "logout">LOGOUT</a>
+        </nav>
+        </div>
+    </div>
+    
+    <form action="" method ="post">
+
+        <div class = "box-form">
+            <div class = "header-order">
+            ORDER FORM
+            </div>
+            <br>
+            <div class = "cus-info">
+                <div class = "header-cus">
+                Customer Information<br>
+                </div>
+                <label>Full Name: </label>
+                <input type = "text" name = "fname" id = "fname" required><br>
+                <label>Address: </label>
+                <input type = "text" name = "address" id = "address" required><br>
+                <label>Email Address: </label>
+                <input type = "text" name = "email" id = "email" required><br>
+                <label>Phone Number: </label>
+                <input type = "text" name = "number" id = "number" required><br>
+                <br>
+            </div>
+            
+            <div class = "header-menu">
+                CAFE MENU
+            </div>
+            <br>
+
+            <div class = "hot-info">
+                <div class = "header-hot">
+                    Hot Beverages<br>
+                </div>
+                    <input type = "checkbox" name= "Hot Beverages" value = "Cappuccino" id = "cap">
+                    <label>
+                        Cappuccino
+                    </label><br>
+                    <input type = "checkbox" name= "Hot Beverages" value = "Caramel Macchiato" id = "cam">
+                    <label>
+                        Caramel Macchiato
+                    </label><br>
+                    <input type = "checkbox" name= "Hot Beverages" value = "Mocha" id = "moc">
+                    <label>
+                    Mocha
+                    </label><br>
+                    <input type = "checkbox" name= "Hot Beverages" value = "Espresso" id = "esp">
+                    <label>
+                        Espresso
+                    </label>
+            </div>
+
+            <div class = "cold-info">
+                <div class = "header-cold">
+                    Cold Beverages<br>
+                </div>
+                    <input type = "checkbox" name= "Cold Beverages" value = "Java Chip" id = "jav">
+                    <label>
+                        Java Chip
+                    </label><br>
+                    <input type = "checkbox" name= "Cold Beverages" value = "Hazelnut Frappe" id = "haz">
+                    <label>
+                    Hazelnut Frappe
+                    </label><br>
+                    <input type = "checkbox" name= "Cold Beverages" value = "Caramel Frappe" id = "cam">
+                    <label>
+                    Caramel Frappe
+                    </label><br>
+                    <input type = "checkbox" name= "Cold Beverages" value = "Strawberry Frappe" id = "str">
+                    <label>
+                        Strawberry Frappe
+                    </label>
+            </div>
+
+            <div class = "bake-info">
+                    <div class = "header-bake">
+                        Bakery Menu<br>
+                    </div>
+                    <input type = "checkbox" name= "Bakery Menu" value = "Muffin" id = "muf">
+                    <label>
+                        Muffin
+                    </label><br>
+                    <input type = "checkbox" name= "Bakery Menu" value = "Chocolate Cake" id = "choc">
+                    <label>
+                    Chocolate Cake
+                    </label><br>
+                    <input type = "checkbox" name= "Bakery Menu" value = "Cinnamon Roll" id = "cin">
+                    <label>
+                    Cinnamon Roll
+                    </label><br>
+                    <input type = "checkbox" name= "Bakery Menu" value = "Banana Bread" id = "bana">
+                    <label>
+                        Banana Bread
+                    </label>
+                    <br><br>
+            </div>
+            <input id="button" type="submit" name="Submit">
+        </div>
+    </form>
+    <div class ="order-info">
+        Stop settling for less, have an affair with our café
+    </div>
+</body>
+</html>

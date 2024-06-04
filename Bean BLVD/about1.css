@@ -1,0 +1,220 @@
+.header{
+    width: 1345px;
+    height: 180px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background: #8294C4;
+    padding-right: 20px;
+  }
+  
+  .shop-name{
+    color: black;
+    text-align: center;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 10px;
+  }
+  .shop-slog{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 15px;
+    padding-bottom: 10px;
+  }
+  
+  .contents-nav{
+    width:100%px;
+    height: 35px;
+    background-color: #ACB1D6;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: black;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 10px;
+  }
+  a{
+    text-decoration: none;
+    color:#454545;
+  }
+
+  #pro-btn:hover, #or-btn:hover, #home-btn:hover, 
+  #about-btn:hover, #logout:hover{
+    color: aliceblue;
+  }
+  
+  #logout{
+    float: right;
+  }
+
+.mission{
+    width: 700px;
+    height: 250px;
+    background-color: #ffffff;
+    color: black;
+    text-align: justify;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: #8294C4;
+    border-style: solid;
+    padding: 0px 20px 0px 15px;
+    margin-top: 30px;
+    margin-left: 30px;
+    box-shadow: 4px 5px 5px 0px #8294C4;
+}
+
+.header-mission{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 3px;
+}
+
+.vision{
+    width: 700px;
+    height: 270px;
+    background-color: #ffffff;
+    color: black;
+    text-align: justify;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: #8294C4;
+    border-style: solid;
+    padding: 0px 20px 0px 15px;
+    margin-left: 600px;
+    box-shadow: 4px 5px 5px 0px #8294C4;
+}
+
+.header-vision {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 3px;
+}
+
+
+.header-started {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+    letter-spacing: 3px;
+}
+
+.started{
+    width: 1310px;
+    height: 180px;
+    background-color: #DBDFEA;
+    color: black;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left:25px;
+    padding-right:40px;
+}
+
+.header-found {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    padding-top: 20px;
+    letter-spacing: 3px;
+}
+
+
+.Founders{
+    width: 1240px;
+    height: 550px;
+    background-color: #ACB1D6;
+    color: black;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left:30px;
+    padding-right:40px;
+    float: left;
+    margin-left: 30px;
+    text-align: center;
+}
+
+
+.allyssa, .chelsea{
+    width: 366px;
+    height: 450px;
+    background-color: #ffffff;
+    float: left; 
+    margin-right: 2px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 20px;
+    border-color: #8294C4;
+    border-style: solid;
+    margin-top: 10px;
+}
+
+.cherlize{
+    width: 360px;
+    height: 450px;
+    background-color: #ffffff;
+    float: right; 
+    clear: none;
+    margin-right: 2px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 20px;
+    border-color: #8294C4;
+    border-style: solid;
+    margin-top: 10px;
+}
+
+
+.pic-ali{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    background-color: antiquewhite;
+    background-image: url(img/Baterina.jpg);
+    background-size: 150px;
+    border-color: #8294C4;
+    border-style: solid;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+.pic-chel{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    background-color: antiquewhite;
+    background-image: url(img/chelsea.jpg);
+    background-size: 150px;
+    border-color: #8294C4;
+    border-style: solid;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+.pic-cher{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    background-color: antiquewhite;
+    background-image: url(img/cherlize.jpg);
+    background-size: 150px;
+    border-color: #8294C4;
+    border-style: solid;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+.header-ali, .header-chel, .header-cher {
+    padding-top: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
